@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Patua+One");
+
+
+body {
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Patua One', sans-serif;
+    height: 600px;
+    width: 1024px;
+    left: 0px;
+    position: absolute;
+    margin: 0px !important;
+    padding: 0;
+    color: #333333;
+}
+
+button {
+    border-width: 0px;
+}
+
+.ghost-speech-bubble {
+    position: fixed;
+    top: 250px;
+    left: 530px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+    z-index: 5;
+    transition: 2s top;
+}
+
+video {
+    position: absolute !important;
+    top: -50px;
+    /* bottom: 0; */
+    left: -50px;
+    /* right: 0; */
+    z-index: 3;
+    width: 1124px;
+    height: 700px;
+    background: none !important;
+}
+
+button {
+    z-index: 30;
+    position: absolute;
+    background-color: Transparent;
+    outline: none;
+    overflow: hidden;
+    font-size: 25px;
+}
+
+.pulse {
+    animation-name: pulse_animation;
+    animation-duration: 2500ms;
+    transform-origin: center;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse_animation {
+    from {
+        transform: none;
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+.cc-container {
+    z-index: 5;
+    font-size: 30px;
+    position: fixed;
+    min-width: 940px;
+    bottom: 0;
+    left: 0;
+    transition: translateY 2s;
+}
+
+.cc-container .bubble {
+    background-color: white;
+    line-height: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    bottom: 10px;
+}
+
+@-webkit-keyframes anim_fadeOutDown {
+    from {
+        opacity: 1;
+        bottom: 0;
+    }
+
+    to {
+        opacity: 0;
+        bottom: -150px;
+    }
+}
+
+@keyframes anim_fadeOutDown {
+    from {
+        opacity: 1;
+        bottom: 0;
+    }
+
+    to {
+        opacity: 0;
+        bottom: -150px;
+    }
+}
+
+.fadeOutDown {
+    animation-name: anim_fadeOutDown;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+.fadeOut {
+    animation-name: anim_fadeOut;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}

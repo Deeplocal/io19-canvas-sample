@@ -1,0 +1,39 @@
+.vote-container {
+    position: fixed;
+    font-size: 70px;
+}
+
+.vote-container .vote-numeral {
+    position: relative;
+    color: #8c531b;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.vote-left {
+    position: fixed;
+    top: 310px;
+    left: 165px;
+}
+
+.vote-right {
+    position: fixed;
+    top: 310px;
+    left: 850px;
+}
+
+.vote-digit-change {
+    animation-name: anim_digit_change;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    transform-origin: top left;
+}
+
+@keyframes anim_digit_change {
+    from { transform: none; }
+    40% { transform: scale(1.25) }
+    60% { transform: scale(1.25) }
+    to { transform: none; }
+}

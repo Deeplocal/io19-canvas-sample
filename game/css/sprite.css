@@ -1,0 +1,100 @@
+/*
+ -- All the sprite stuff -- 
+ */
+.sprite {
+    position: absolute;
+    z-index: 300;
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-poof_sprite_15_00000 {
+    width: 280px;
+    height: 280px;
+    background-position: -5px -5px;
+}
+
+.sprite-poof_sprite_15_00001 {
+    width: 280px;
+    height: 280px;
+    background-position: -295px -5px;
+}
+
+.sprite-poof_sprite_15_00002 {
+    width: 280px;
+    height: 280px;
+    background-position: -585px -5px;
+}
+
+.sprite-poof_sprite_15_00003 {
+    width: 280px;
+    height: 280px;
+    background-position: -5px -295px;
+}
+
+.sprite-poof_sprite_15_00004 {
+    width: 280px;
+    height: 280px;
+    background-position: -295px -295px;
+}
+
+.sprite-poof_sprite_15_00005 {
+    width: 280px;
+    height: 280px;
+    background-position: -585px -295px;
+}
+
+.sprite-poof_sprite_15_00006 {
+    width: 280px;
+    height: 280px;
+    background-position: -5px -585px;
+}
+
+.sprite-poof_sprite_15_00007 {
+    width: 280px;
+    height: 280px;
+    background-position: -295px -585px;
+}
+
+.sprite-poof_sprite_15_00008 {
+    width: 280px;
+    height: 280px;
+    background-position: -585px -585px;
+}
+
+.sprite-poof_sprite_15_00009 {
+    width: 280px;
+    height: 280px;
+    background-position: -875px -5px;
+}
+
+.sprite-poof_sprite_15_00010 {
+    width: 280px;
+    height: 280px;
+    background-position: -875px -295px;
+}
+
+.sprite-poof_sprite_15_00011 {
+    width: 280px;
+    height: 280px;
+    background-position: -875px -585px;
+}
+
+.sprite-poof_sprite_15_00012 {
+    width: 280px;
+    height: 280px;
+    background-position: -5px -875px;
+}
+
+.sprite-poof_sprite_15_00013 {
+    width: 280px;
+    height: 280px;
+    background-position: -295px -875px;
+}
+
+.sprite-poof_sprite_15_00014 {
+    width: 280px;
+    height: 280px;
+    background-position: -585px -875px;
+}

@@ -1,0 +1,22 @@
+.howto-button {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    height: 56px;
+    width: 56px;
+}
+
+.howto-img {
+    position: absolute;
+    z-index: 0;
+}
+
+.cover {
+    width: 1024px;
+    height: 600px;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

@@ -1,0 +1,114 @@
+.action-pill {
+    z-index: 5;
+    position: fixed;
+    top: 380px;
+    left: 450px;
+    padding: 10px 16px;
+    border-radius: 100px;
+    background-color: #f9d14d;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    border: 2px solid #ffebcc;
+}
+
+.square-action-pill {
+    z-index: 5;
+    z-index: 5;
+    position: fixed;
+    top: 380px;
+    left: 450px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    box-shadow: 5px 5px #4C4C4C;
+}
+
+.action-pill-animation-pulse {
+    animation-name: anim_action_pill_pulse;
+    animation-duration: 2000ms;
+    transform-origin: center;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.square-action-pill-animation-pulse {
+    animation-name: anim_action_pill_pulse_square;
+    animation-duration: 2000ms;
+    transform-origin: center;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.action-pill-animation-go-away {
+    animation-name: anim_action_pill_go_away;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.action-pill-animation-appear {
+    animation-name: anim_action_pill_appear;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes anim_action_pill_pulse {
+    from {
+        transform: none;
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+@keyframes anim_action_pill_pulse_square {
+    from {
+        transform: none;
+    }
+
+    50% {
+        transform: scale(1.03);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+@keyframes anim_action_pill_go_away {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0);
+    }
+}
+
+@keyframes anim_action_pill_appear {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes anim_fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
