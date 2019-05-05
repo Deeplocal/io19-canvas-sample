@@ -44,7 +44,7 @@ and download the json file with your api key, project id and auth domain. It sho
 }
 ```
 
-rename the file `.env.json` and place it in the `gamne/` directory.
+rename the file `.env.json` and place it in the `game/` directory.
 
 ___
 
@@ -65,7 +65,7 @@ _NOTE:_ Your website must be https enabled!
 ___
 Once your game has a URL you can import the provided Dialogflow intents and connect your web content to an Assistant action. To get you started we’ve provided a zip (dialogflow.zip) of our intents which you can import into your Dialogflow project and adjust as accordingly.
 
-Next, navigate to the fulfillment tab [todo: image] in the Dialogflow console and paste in the contents of the index.js file provided in the fulfillment directory.
+Next, navigate to the fulfillment tab in the Dialogflow console and paste in the contents of the index.js file provided in the fulfillment directory.
 
 Find this block in the index.js file and replace https://your.domain.com with your URL:
 ```
